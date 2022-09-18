@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>42a2cf20-aa37-4c9a-91a8-fd8d7c1521c2</Guid>
+    <Name>TeslaExMortis</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>TeslaExMortis</AssemblyName>
+    <RootNamespace>TeslaExMortis</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\TeslaExMortis\" />
+    <Folder Include="Src\TeslaExMortis\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComTEM.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\TeslaExMortis.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\TeslaExMortis\Classes\UIFacility_TEMSoldierSlot.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\TeslaExMortis\Classes\UIPersonnel_TeslaExMortis.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\TeslaExMortis\Classes\X2DownloadableContentInfo_TeslaExMortis.uc" />
+    <Content Include="Src\TeslaExMortis\Classes\X2StrategyElement_TeslaExMortis.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\TeslaExMortis\Classes\XComGameStateContext_HeadquartersOrderTEM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\TeslaExMortis\Classes\XComGameState_HeadquartersProjectTEMSoldier.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

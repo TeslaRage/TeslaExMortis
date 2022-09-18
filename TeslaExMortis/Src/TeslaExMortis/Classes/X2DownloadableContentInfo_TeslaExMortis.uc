@@ -1,0 +1,1 @@
+class X2DownloadableContentInfo_TeslaExMortis extends X2DownloadableContentInfo;

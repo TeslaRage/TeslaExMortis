@@ -1,0 +1,6 @@
+[UIFacility_TEMSoldierSlot]
+
+m_strStopTEMDialogText = "Do you want to stop %UNITNAME from resurrection?\n\nWARNING: All progress will be lost."
+m_strStopTEMDialogTitle = "STOP RESURRECTION PROCESS?"
+m_strTEMDialogTitle = "RESURRECT SOLDIER"
+m_strTEMDialogText = "<XGParam:StrValue0/!UnitName/> can undergo conditioning training, increasing one the available stats based on the level of Combat Intelligence, but will be unavailable for combat for <XGParam:StrValue1/!Days/> days during the training process. <XGParam:StrValue0/!UnitName/> can only do this ONCE. Do you want to proceed?"
